@@ -46,5 +46,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/alioth/alioth-vendor.mk)
