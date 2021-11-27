@@ -52,5 +52,9 @@ PRODUCT_SOONG_NAMESPACES += \
 # Lawnchair Launcher
 $(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/alioth/alioth-vendor.mk)
