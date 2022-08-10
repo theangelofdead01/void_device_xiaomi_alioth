@@ -1,10 +1,7 @@
-#
-# SPDX-License-Identifier: Apache-2.0
-#
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_alioth.mk
+    $(LOCAL_DIR)/lineage_alioth.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_alioth-userdebug \
-    evolution_alioth-eng
+    lineage_alioth-userdebug \
+    lineage_alioth-eng
