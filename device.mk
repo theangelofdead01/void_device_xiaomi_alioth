@@ -49,5 +49,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Lawnchair Launcher
+$(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/alioth/alioth-vendor.mk)
