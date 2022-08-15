@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_alioth.mk
+    $(LOCAL_DIR)/ancient_alioth.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_alioth-userdebug \
-    lineage_alioth-eng
+    ancient_alioth-userdebug \
+    ancient_alioth-eng
