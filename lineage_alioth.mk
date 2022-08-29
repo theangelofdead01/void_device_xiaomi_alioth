@@ -21,7 +21,7 @@ PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO F3
 
 # maintainer flag (one word only/no spacing)
-RICE_MAINTAINER := maintainer
+RICE_MAINTAINER := EduardoZeas
 RICE_CHIPSET := SM8250
 
 # gapps build flag, if not defined build type is vanilla
