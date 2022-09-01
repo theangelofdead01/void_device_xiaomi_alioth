@@ -517,5 +517,8 @@
     <!-- Default color temperature, in Kelvin, to tint the screen when Night display is
          activated. -->
     <integer name="config_nightDisplayColorTemperatureDefault">3339</integer>
+    
+    <!-- Pocket Lock -->
+    <bool name="config_pocketModeSupported">false</bool>
 
 </resources>
