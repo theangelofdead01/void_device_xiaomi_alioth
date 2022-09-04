@@ -61,9 +61,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
-# Lawnchair Launcher
-$(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
-
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
     RemovePackages
