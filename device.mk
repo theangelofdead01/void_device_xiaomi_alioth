@@ -25,6 +25,9 @@ TARGET_SCREEN_WIDTH := 1080
 # Camera
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/camera/camera_cnf.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_cnf.txt
+    
+# Gapps
+$(call inherit-product-if-exists, vendor/gapps/config.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
