@@ -31,10 +31,6 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-evolution \
     $(LOCAL_PATH)/overlay-lineage
-    
-# Service reschedule
-PRODUCT_PRODUCT_PROPERTIES += \
-persist.sys.am.reschedule_service=true
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 30
