@@ -7,8 +7,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_alioth.mk
+    $(LOCAL_DIR)/superior_alioth.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_alioth-userdebug \
-    evolution_alioth-eng
+    superior_alioth-user \
+    superior_alioth-userdebug \
+    superior_alioth-eng
