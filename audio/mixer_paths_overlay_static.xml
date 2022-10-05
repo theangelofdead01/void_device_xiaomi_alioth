@@ -44,7 +44,7 @@
     <ctl name="DRE DRE Switch" value="1" />
     <ctl name="PCM Source" value="None" />
     <ctl name="PCM Soft Ramp" value="4ms" />
-    <ctl name="AMP PCM Gain" value="18" />
+    <ctl name="AMP PCM Gain" value="17" />
     <ctl name="DSP Block Bypass" value="Off" />
     <ctl name="ASP TX1 Source" value="Zero" />
     <ctl name="ASP TX2 Source" value="Zero" />
@@ -63,7 +63,7 @@
     <ctl name="RCV DRE DRE Switch" value="1" />
     <ctl name="RCV PCM Source" value="None" />
     <ctl name="RCV PCM Soft Ramp" value="4ms" />
-    <ctl name="RCV AMP PCM Gain" value="18" />
+    <ctl name="RCV AMP PCM Gain" value="17" />
     <ctl name="RCV DSP Block Bypass" value="Off" />
     <ctl name="RCV ASP TX1 Source" value="Zero" />
     <ctl name="RCV ASP TX2 Source" value="Zero" />
