@@ -33,6 +33,9 @@ SUSHI_BOOTANIMATION := 1080
 # disable/enable blur support, default is false
 TARGET_ENABLE_BLUR := true
 
+# AudioFx
+TARGET_EXCLUDES_AUDIOFX := true
+
 TARGET_OPTOUT_GOOGLE_TELEPHONY := true
 
 TARGET_FACE_UNLOCK_SUPPORTED := true
