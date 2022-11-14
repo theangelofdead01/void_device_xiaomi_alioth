@@ -21,8 +21,8 @@ PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO F3
 
 # maintainer flag (one word only/no spacing)
-RICE_MAINTAINER := EduardoZeas
-RICE_CHIPSET := SM8250
+RICE_MAINTAINER := theangelofdead01
+RICE_CHIPSET := Qualcomm®Snapdragon™870
 
 # gapps build flag, if not defined build type is vanilla
 WITH_GMS := true
