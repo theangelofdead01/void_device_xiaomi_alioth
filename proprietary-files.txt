@@ -710,6 +710,7 @@ vendor/firmware/vibrator_firmware_aidl/92_notificationRemove_RTP.bin
 vendor/firmware/vibrator_firmware_aidl/93_notificationCleanall_RTP.bin
 vendor/firmware/vibrator_firmware_aidl/96_nfcCard_RTP.bin
 vendor/firmware/vibrator_firmware_aidl/98_nfcCardSlow_RTP.bin
+vendor/firmware/vibrator_firmware_aidl/99_POCO_RTP.bin
 vendor/firmware/vibrator_firmware_aidl/9_ringTone4_P_RTP.bin
 vendor/firmware/0_click_P_RTP.bin
 vendor/firmware/101_offlineCountdown_RTP.bin
@@ -867,6 +868,7 @@ vendor/firmware/92_notificationRemove_RTP.bin
 vendor/firmware/93_notificationCleanall_RTP.bin
 vendor/firmware/96_nfcCard_RTP.bin
 vendor/firmware/98_nfcCardSlow_RTP.bin
+vendor/firmware/99_POCO_RTP.bin
 vendor/firmware/9_ringTone4_P_RTP.bin
 vendor/firmware/AcousticGuitar_RTP.bin
 vendor/firmware/Atlantis_RTP.bin
