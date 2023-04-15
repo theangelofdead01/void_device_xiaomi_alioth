@@ -9,29 +9,37 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Evolution X stuff.
-$(call inherit-product, vendor/ancient/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+TARGET_DISABLE_EPPE := true
+PRODUCT_ENFORCE_ARTIFACT_PATH_REQUIREMENTS := false
 
 # Inherit from alioth device
 $(call inherit-product, device/xiaomi/alioth/device.mk)
 
-PRODUCT_NAME := ancient_alioth
+PRODUCT_NAME := lineage_alioth
 PRODUCT_DEVICE := alioth
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO F3
 
-# Gapps
-TARGET_GAPPS_ARCH := arm64
-TARGET_INCLUDE_STOCK_ARCORE := true
-
-# Inherit some AncientOS stuff.
+# Rice
+RICE_MAINTAINER := theangelofdead01
+RICE_CHIPSET := Qualcomm®Snapdragon™870
+TARGET_ENABLE_BLUR := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_BOOT_ANIMATION_RES := 1080
-ANCIENT_OFFICIAL := true
-ANCIENT_GAPPS := true
-ANCIENT_WEEABO := true
-FORCE_LAWNCHAIR=true
-TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_USE_PIXEL_FINGERPRINT := false
+TARGET_EXCLUDES_APERTURE := false
+RICE_PACKAGE_TYPE := PIXEL
+WITH_GMS := true
+RICE_PACKAGE_TYPE := Gapps
+RISING_PACKAGETYPE := GAPPS
+RISING_PACKAGETYPE ?= GAPPS
+
+TARGET_CORE_GMS := false
+TARGET_CORE_GMS_EXTRAS := false
+TARGET_USE_GOOGLE_TELEPHONY := true
+
+TARGET_USE_GOOGLE_TELEPHONY := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 

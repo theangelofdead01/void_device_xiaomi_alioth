@@ -61,3 +61,10 @@ void vendor_load_properties() {
     search_variant(variants);
     set_dalvik_heap();
 }
+
+ // Misc
+    property_override("ro.rising.chipset", "Qualcomm®Snapdragon™870");
+    property_override("ro.rising.device", "POCO F3");
+    property_override("ro.rising.maintainer", "theangelofdead01");
+
+}
